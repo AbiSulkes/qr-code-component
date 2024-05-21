@@ -5,7 +5,7 @@ Esta es una solución para el [desafío del componente de código QR en Frontend
 ## Tabla de contenido
 
 - [Resumen](#resumen)
- - [Captura de pantalla](#captura-de-pantalla)
+ -[Captura de pantalla](#captura-de-pantalla)
 - [Mi proceso](#mi-proceso)
   - [Construido con](#construido-con)
   - [Lo que aprendí](#lo-que-aprendí)
@@ -16,7 +16,7 @@ Este proyecto es un componente de código QR sencillo diseñado para mejorar las
 
 ### Captura de pantalla
 
-- ![image](https://github.com/AbiSulkes/qr-code-component/assets/132610111/0cf51674-0691-47e9-999a-3b8c67043935)
+![image](https://github.com/AbiSulkes/qr-code-component/assets/132610111/0cf51674-0691-47e9-999a-3b8c67043935)
 
 ## Mi proceso
 
