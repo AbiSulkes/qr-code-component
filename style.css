@@ -1,0 +1,94 @@
+/*Tipografía*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/*Variables de estilo*/
+:root {
+	/*Colors*/
+	--White: hsl(0, 0%, 100%);
+	--Light-gray: hsl(212, 45%, 89%);
+	--Grayish-blue: hsl(220, 15%, 55%);
+	--Dark-blue: hsl(218, 44%, 22%);
+	/*Font-size*/
+	--font-heading: 22px;
+	--font-body: 15px;
+	--font-heading-mobile: 18px;
+	--font-body-mobile: 11px;
+}
+
+/*Parámetros generales*/
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Outfit", sans-serif;
+	background: var(--Light-gray);
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	background: var(--White);
+	border-radius: 20px;
+	width: 320px;
+	height: 497px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.img {
+	width: 288px;
+	border-radius: 10px;
+	margin-top: 1rem;
+}
+
+article>h2 {
+	font-size: var(--font-heading);
+	color: var(--Dark-blue);
+	text-align: center;
+	margin: 1rem;
+}
+
+article>p {
+	font-size: var(--font-body);
+	color: var(--Grayish-blue);
+	text-align: center;
+	margin: 1rem 2rem;
+}
+
+/* Media Query para pantallas móviles (anchominimo de 320px y un ancho máximo 375px) */
+@media (min-width: 320px) and (max-width: 375px) {
+	.container {
+		width: 100%;
+		height: auto;
+		padding: 1rem;
+		margin: 2rem;
+	}
+
+	.img {
+		width: 100%;
+		height: auto;
+	}
+
+	article>h2 {
+		font-size: var(--font-heading-mobile);
+		text-align: center;
+		margin: 8px;
+	}
+
+	article>p {
+		font-size: var(--font-body-mobile);
+		color: var(--Grayish-blue);
+		text-align: center;
+		margin: 10px 16px;
+	}
+
+}
