@@ -5,7 +5,7 @@ Esta es una solución para el [desafío del componente de código QR en Frontend
 ## Tabla de contenido
 
 - [Resumen](#resumen)
- -[Captura de pantalla](#captura-de-pantalla)
+  - [Captura de pantalla](#captura-de-pantalla)
 - [Mi proceso](#mi-proceso)
   - [Construido con](#construido-con)
   - [Lo que aprendí](#lo-que-aprendí)
